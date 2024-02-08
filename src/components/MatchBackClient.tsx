@@ -77,7 +77,7 @@ const App: React.FC = () => {
     <div className=' flex flex-col items-center justify-center p-5 bg-white shadow rounded-lg w-full h-screen'>
       <div className='p-5'>
         <h1 className='text-3xl font-bold text-center'>Matchback Tool</h1>
-        <p className='text-center'>Upload your list and matchback files to find matches.</p>
+        <p className='text-center'>Upload your list and matchback files to find matches. Sort by any given key</p>
       </div>
       <div className='grid grid-col-3 justify-center'>
         <input type='file' onChange={e => handleFileChange(e, setList)} className='p-5' />
